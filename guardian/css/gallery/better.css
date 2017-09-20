@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 16px;
+}
+
+#menubar,
+#menubar ul{
+  list-style: none;
+}
+
+#menubar>li{
+  float: right;
+}
+
+#menubar li a{
+  display: block;
+  height: 20px;
+  width: 110px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#menubar>li>a {
+  background-color: #848484;
+  color : #fff;
+}
+
+#menubar li a:hover {
+  background-color: #5844e8;
+  color : #fff;
+}
