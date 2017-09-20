@@ -1142,5 +1142,15 @@ figure {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
+#map .iframe{
+  width: 1350px;
+  height: 300px;
+}
+
+@media screen and (max-width: 460px){
+  .iframe {
+    width: 320px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
