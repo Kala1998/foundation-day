@@ -1147,10 +1147,5 @@ figure {
   height: 300px;
 }
 
-@media screen and (max-width: 460px){
-  .iframe {
-    width: 320px;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
