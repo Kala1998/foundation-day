@@ -326,13 +326,13 @@ figure {
   color: #fff !important;
 }
 
-#fh5co-menu-wrap {
+#fh5co-primary-menu {
   position: relative;
   z-index: 2;
   display: block;
   float: right;
   margin-top: 22px;
-  background: #845796;
+  background: #848484;
 }
 #fh5co-menu-wrap .sf-menu a {
   padding: 1em .75em;
