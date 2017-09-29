@@ -98,7 +98,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(66, 64, 64, 0.7);
+  background: rgba(66, 64, 64, 0.);
 }
 
 .fh5co-overlay {
@@ -299,16 +299,25 @@ figure {
   float: left;
   width: 100%;
 }
-
 #fh5co-logo {
   position: relative;
   z-index: 2;
   font-size: 28px;
   text-transform: uppercase;
-  margin-top: 35px;
+  margin-top: 20px;
   font-weight: 300;
   float: left;
 }
+/*
+#fh5co-logo {
+  position: relative;
+  top : 10%;
+  left: 5%;
+  z-index: 2;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 300;
+}  */
 #fh5co-logo span {
   font-weight: 700;
 }
@@ -326,13 +335,14 @@ figure {
   color: #fff !important;
 }
 
-#fh5co-primary-menu {
+#fh5co-menu-wrap {
   position: relative;
+  left: 0%;
+  top : 0%;
   z-index: 2;
   display: block;
-  float: right;
-  margin-top: 22px;
-  background: #848484;
+  width: 100%;
+  height: 65px;
 }
 #fh5co-menu-wrap .sf-menu a {
   padding: 1em .75em;
@@ -460,6 +470,8 @@ figure {
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
   color: #0054ff !important;
 }
+
+
 
 #fh5co-work-section,
 #fh5co-services-section,
@@ -800,11 +812,6 @@ figure {
   height: 500px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
-  #map {
-    height: 200px;
-  }
-}
 
 .fh5co-social-icons > a {
   padding: 4px 10px;
@@ -1136,6 +1143,17 @@ figure {
   height: 100%;
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
+}
+
+#map .iframe{
+  width: 1350px;
+  height: 300px;
+}
+
+@media screen and (max-width: 460px){
+  .iframe {
+    width: 320px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

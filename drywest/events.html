@@ -9,11 +9,54 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Foundation day 2017</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+
+    <!--  Copy starts-->
+    <!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="shortcut icon" href="flask.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap2.0.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish2.0.css">
+
+	<link rel="stylesheet" href="css/style2.0.css">
+     <!--  Copy ends-->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href="//fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!--For countdown-->
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
 
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+	
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -30,9 +73,6 @@
 	<link rel="shortcut icon" href="flask.ico">
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-	<link href="css/events/events.css" rel="stylesheet" type="text/css" media="all">
-
-
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -44,8 +84,7 @@
 	<link rel="stylesheet" href="css/superfish2.0.css">
 
 	<link rel="stylesheet" href="css/style2.0.css">
-	<!--For countdown-->
-	<link href="font-awesome.min">
+
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -57,153 +96,201 @@
 
 	</head>
 	<body>
-						<h1 id="fh5co-logo"><a href="https://devangliya.github.io/Foundationday.github.io/home.html"><span>IISER</span>Mohali</a></h1>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div id="fh5co-header">
+			<header id="fh5co-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+						<h1 id="fh5co-logo"><a href="index2.1.html">IISER<span>Mohali</span></a></h1>
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li><a href="https://devangliya.github.io/Foundationday.github.io/index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-								<li class="active"><a href="event.html">Events</a></li>
-								<li><a href="https://devangliya.github.io/Foundationday.github.io/gallery.html">Gallery</a></li>
-								<li><a href="https://devangliya.github.io/Foundationday.github.io/team.html">Team</a></li>
-								<li><a href="#">Contact</a></li>
+								<li>
+									<a href="index2.1.html">Home</a>
+								</li>
+								<li class="active"><a href="../events.html">Events</a></li>
+								<li><a href="../gallery.html">Gallery</a></li>
+								<li><a href="../about.html">About</a></li>
+								<li><a href="../team.html">Team</a></li>
+								<li><a href="../contact.html">Contact</a></li>
 							</ul>
 						</nav>
-		
+					</div>
+				</div>
+			</header>
+			
+		</div>
+
+		<div class="fh5co-hero fh5co-hero-2">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/homedit.jpg);">
+				<div class="desc animate-box">
+					<h2>Events</h2>
+					
+				</div>
+			</div>
+		</div>
 		<!-- end:header-top -->
-		<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/quiz.jpg');">
-  <div class="hoc split clear">
-    <section> 
-      <!-- ################################################################################################ -->
-      <h2 class="heading">Quiz</h2>
-      <p class="btmspace-50">Come rack your brains and hone your puzzle cracking skills with the open quiz as well as one meant specifically for school students. We dont prescribe a syllabus, just an open and curious mind. You can either make it to finals and compete or sit in the audience and still learn new things. There are also exciting prizes to be won!</p>
-      <p>Teams of 2</p>
-      <ul class="nospace group elements">
-        <li>
-        </li>
-      </ul>
-      <!-- ################################################################################################ -->
-    </section>
-  </div>
+		<div class="projects" id="projects">
+	<div class="container">
+	<span class="about-top-w3"></span>
+		<h4 class="title-w3ls"></h4>
+		<div class="news-bottom">
+				<div class="news-one-wthree-agile">
+					<div class="col-md-6 news-left">
+						        <div class="biseller-column">
+										<a class="lightbox" href="#one">
+											<img src="images/quiz.jpg" alt=""/>
+										</a> 
+										
+							   </div>
+
+					</div>	
+					<div class="col-md-6 news-right"> 
+					<a href="#one"><h4>Quiz</h4></a>
+						<p class="para-w3-agile">Come rack your brains and hone your puzzle cracking skills with the open quiz as well as one meant specifically for school students. We dont prescribe a syllabus, just an open and curious mind. You can either make it to finals and compete or sit in the audience and still learn new things. There are also exciting prizes to be won!<br> Co-ordinator's number : +91 98725 05492</p>
+      <p>Teams of 2</p>	
+					</div>	
+					<div class="clearfix"> </div>	
+				</div>
+				<div class="news-one-wthree-agile">
+					<div class="col-md-6 news-right"> 
+						<a href="#three"><h4>Demonstrations</h4></a>
+						<p class="para-w3-agile">Ever wondered how all those fancy experiments work? Wanted to see biological specimens up close? Play around with chemicals in a safe manner? Learn mathematical tricks? Watch gravity-defying physics experiments? This is your chance! You get to not only see these things in the research labs, you also get the chance to interact one-on-one with the students and scholars working in this fields! !<br> Co-ordinator's number : +91 99156 18707</p>	
+					</div>	
+					<div class="col-md-6 news-left">
+						 <div class="biseller-column">
+										<a class="lightbox" href="#three">
+											<img src="images/Lewin.jpg" alt=""/>
+										</a> 
+										
+							</div>
+
+					</div>						
+					<div class="clearfix"> </div>	
+				</div>	
+			  <div class="news-one-wthree-agile">
+					<div class="col-md-6 news-left">
+							<div class="biseller-column">
+										<a class="lightbox" href="#two">
+											<img src="images/THunt.jpg" alt=""/>
+										</a> 
+										
+							</div>
+
+					</div>	
+					<div class="col-md-6 news-right"> 
+					<a href="#two"><h4>Treasure Hunt</h4></a>
+						<p class="para-w3-agile">Are you fascinated by hidden treasures? Do you think you are good at cracking riddles? Want to bring out the adventurer in you? Then, this is the place to be. Connect the dots and the treasure will be yours! Come play in teams and you will gain scientific insights along with exciting prizes<br> Co-ordinator's number : +91 99874 68538</p>
+                         <p>Teams of 4</p>	
+					</div>	
+					<div class="clearfix"> </div>	
+				</div>	
+				<div class="news-one-wthree-agile">
+					<div class="col-md-6 news-right"> 
+						<a href="#four"><h4>Vodoo Busters</h4></a>
+						<p class="para-w3-agile">Everyone has seen fakirs and babas performing seemingly miraculous events and conjuring things out of thin air. Is that magic? No! Watch and learn the science behind these ‘impossible’ tricks as we perform these for you and then debunk the myths behind them<br> Co-ordinator's number : +91 98725 05492</p>	
+					</div>	
+					<div class="col-md-6 news-left">
+						 <div class="biseller-column">
+										<a class="lightbox" href="#four">
+											<img src="images/Vdo.jpg" alt=""/>
+										</a> 
+										
+							</div>
+
+					</div>						
+					<div class="clearfix"> </div>	
+				</div>	
+				 <div class="news-one-wthree-agile">
+					<div class="col-md-6 news-left">
+							<div class="biseller-column">
+										<a class="lightbox" href="#five">
+											<img src="images/summarize.jpg" alt=""/>
+										</a> 
+										
+							</div>
+
+					</div>	
+					<div class="col-md-6 news-right"> 
+					<a href="#five"><h4>Summarize</h4></a>
+						<p class="para-w3-agile">Put a fun spin to famous ideas of Science. Explain in a funny indirect way! Speak, or act them out-but don't let the time run out!<br> Co-ordinator's number : +91 97555 37257</p>
+      <p>Teams Event</p></p>	
+					</div>	
+					<div class="clearfix"> </div>	
+				</div>
+				<div class="clearfix"> </div>
+				<div class="news-one-wthree-agile">
+					<div class="col-md-6 news-right"> 
+						<a href="#three"><h4>Blackout Poetry</h4></a>
+						<p class="para-w3-agile">A blackout poem is when a poet takes a marker (usually black marker) to already established text–like in a newspaper–and starts redacting words until a poem is formed. <br >Given a page, black words out to write a poem that brushes up the neurons as well as cracks us up!</p><br> Co-ordinator's number : +91 97555 37257	<p>Individual Event</p>
+					</div>	
+					<div class="col-md-6 news-left">
+						 <div class="biseller-column">
+										<a class="lightbox" href="#three">
+											<img src="images/BP.jpg" alt=""/>
+										</a> 
+										
+							</div>
+
+					</div>						
+					<div class="clearfix"> </div>	
+				</div>	
+			  <div class="news-one-wthree-agile">
+					<div class="col-md-6 news-left">
+							<div class="biseller-column">
+										<a class="lightbox" href="#two">
+											<img src="images/fibo.jpg" alt=""/>
+										</a> 
+										
+							</div>
+
+					</div>	
+					<div class="col-md-6 news-right"> 
+					<a href="#two"><h4>Fibonacci poetry</h4></a>
+						<p class="para-w3-agile">Use the magic of math and the power of words to write out a wonderful poem! Fibonacci-the ratio of words in consecutive lines! <br> Co-ordinator's number : +91 97555 37257</p>
+
+      <p>   "Spin Scribble and Weave"</p><p>Individual Event</p>
+					</div>	
+					<div class="clearfix"> </div>	
+				</div>	
+				<div class="news-one-wthree-agile">
+					<div class="col-md-6 news-right"> 
+						<a href="#three"><h4>Science in a Frame</h4></a>
+						<p class="para-w3-agile">More often than not,less is more! So let the artist in you blend with the scientist and showcase your talent to the world. Design a minimalistic poster, depicting your ideas about science in a single frame.<br> Co-ordinator's number : +91 97555 37257</p>
+					</div>	
+					<div class="col-md-6 news-left">
+						 <div class="biseller-column">
+										<a class="lightbox" href="#three">
+											<img src="images/post.jpg" alt=""/>
+										</a> 
+										
+							</div>
+
+					</div>						
+					<div class="clearfix"> </div>	
+				</div>	
+
+			</div>	
+
+
+	</div>
 </div>
+<!-- //projects -->
+<!-- contact -->
+<!-- //about -->
 
-
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/RDemo.jpg');">
-  <div class="hoc splita clear">
-    <section> 
-      <!-- ################################################################################################ -->
-      <h2 class="heading">Demonstrations</h2>
-      <p>Ever wondered how all those fancy experiments work? Wanted to see biological specimens up close? Play around with chemicals in a safe manner? Learn mathematical tricks? Watch gravity-defying physics experiments? This is your chance! You get to not only see these things in the research labs, you also get the chance to interact one-on-one with the students and scholars working in this fields!</p>
-      
-      <ul class="nospace group elements">
-        <li>
-        </li>
-      </ul>
-      <!-- ################################################################################################ -->
-    </section>
-  </div>
-</div>
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/THunt.jpg');">
-  <div class="hoc split clear">
-    <section> 
-      <!-- ################################################################################################ -->
-      <h2 class="heading">Treasure Hunt</h2>
-      <p class="btmspace-50">Are you fascinated by hidden treasures? Do you think you are good at cracking riddles? Want to bring out the adventurer in you? Then, this is the place to be. Connect the dots and the treasure will be yours! Come play in teams and you will gain scientific insights along with exciting prizes</p>
-      <p>Teams of 4</p>
-      <ul class="nospace group elements">
-        <li>
-        </li>
-      </ul>
-      <!-- ################################################################################################ -->
-    </section>
-  </div>
-</div>
-
-
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/Vdo.jpg');">
-  <div class="hoc splita clear">
-    <section> 
-      <!-- ################################################################################################ -->
-      <h2 class="heading">Vodoo Busters</h2>
-      <p class="btmspace-50">Everyone has seen fakirs and babas performing seemingly miraculous events and conjuring things out of thin air. Is that magic? No! Watch and learn the science behind these ‘impossible’ tricks as we perform these for you and then debunk the myths behind them</p>
-      <ul class="nospace group elements">
-        <li>
-        </li>
-      </ul>
-      <!-- ################################################################################################ -->
-    </section>
-  </div>
-</div>
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/Summarize.jpg');">
-  <div class="hoc split clear">
-    <section> 
-      <!-- ################################################################################################ -->
-      <h2 class="heading">Summarize</h2>
-      <p class="btmspace-50">Put a fun spin to famous ideas and stories of Science. Explain in a funny indirect way! Speak, or act them out-but don't let the time run out!</p>
-      <p>Teams of 2</p>
-      <ul class="nospace group elements">
-        <li>
-        </li>
-      </ul>
-      <!-- ################################################################################################ -->
-    </section>
-  </div>
-</div>
-
-
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/BPsun.jpg');">
-  <div class="hoc splita clear">
-    <section> 
-      <!-- ################################################################################################ -->
-      <h2 class="heading">Blackout poetry</h2>
-      <p>A blackout poem is when a poet takes a marker (usually black marker) to already established text–like in a newspaper–and starts redacting words until a poem is formed.</p>
-      <p class="btmspace-50">Given a page, black words out to write a poem that brushes up the neurons as well as cracks us up!</p>
-      <p>Teams of 2</p>
-      <ul class="nospace group elements">
-        <li>
-        </li>
-      </ul>
-      <!-- ################################################################################################ -->
-    </section>
-  </div>
-</div>
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/Fibo.jpg');">
-  <div class="hoc split clear">
-    <section> 
-      <!-- ################################################################################################ -->
-      <h2 class="heading">Fibonacci poetry</h2>
-      <p class="btmspace-50">Use the magic of math and the power of words to write out a wonderful poem! Fibonacci-the ratio of words in consecutive lines!</p>
-
-      <p>   "Spin Scribble and Weave"</p>
-      <p>Teams of 2</p>
-      <ul class="nospace group elements">
-        <li>
-        </li>
-      </ul>
-      <!-- ################################################################################################ -->
-    </section>
-  </div>
-</div>
-
-
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/Post.jpg');">
-  <div class="hoc splita clear">
-    <section> 
-      <!-- ################################################################################################ -->
-      <h2 class="heading">Science in a frame</h2>
-      <p>More often than not,less is more! So let the artist in you blend with the scientist and showcase your talent to the world. Design a minimalistic poster, depicting your ideas about science in a single frame.</p>
-      <p>Teams of 2</p>
-      <ul class="nospace group elements">
-        <li>
-        </li>
-      </ul>
-      <!-- ################################################################################################ -->
-    </section>
-  </div>
-</div>
-		<!-- fh5co-content-section -->
+	<div class="footer">
+		<div class="container">
+			<p>Designed by IISER-M <a href="../team.html"> Web Team</a></p>
+		</div>
+	</div>
+<!-- //footer -->
 		
 		<!-- fh5co-blog-section -->
+		
 	
 
 	</div>
@@ -230,10 +317,6 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-
-	<script src="js/events/jquery.min.js"></script>
-	<script src="js/events/jquery.backtotop.js"></script>
-	<script src="js/events/jquery.mobilemenu.js"></script>
 
 	</body>
 </html>
